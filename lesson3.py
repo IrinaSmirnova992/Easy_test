@@ -1,5 +1,3 @@
-A="Hello,"
-B=" Harry!"
-C=A+B
-print(C)
-print ('Hello,' + ' Harry!')
+print("введите ваше имя:")
+N=input()
+print("Hello,",N+"!")
