@@ -1,9 +1,5 @@
+print("Введите кол-во минут")
 n = int(input())
-if n<1440:
-    print (n//60)
-    print (n%60)
-else:
-    a = 1440 - n
-    a *= -1
-    print(a//60)
-    print (a%60)
+hours = n % (60 * 24) // 60
+minutes = n % 60
+print(hours, "ч", minutes, "м")
